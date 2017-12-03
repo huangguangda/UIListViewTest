@@ -24,6 +24,26 @@ public class MainActivity extends AppCompatActivity {
         listView.setAdapter ( adapter );*/
     }
     private void initFruits(){
+        Fruit apple = new Fruit ( "Apple", R.drawable.add );
+        fruitList.add ( apple );
+        Fruit banana = new Fruit ( "Banana", R.drawable.add );
+        fruitList.add ( banana );
+        Fruit orange = new Fruit ( "Orange", R.drawable.add );
+        fruitList.add ( orange );
+        Fruit watermelon = new Fruit ( "Watermelon", R.drawable.add );
+        fruitList.add ( watermelon );
+        Fruit pear = new Fruit ( "Pear", R.drawable.add );
+        fruitList.add ( pear );
+        Fruit grape = new Fruit ( "Grape", R.drawable.add );
+        fruitList.add ( grape );
+        Fruit pineapple = new Fruit ( "Pineapple", R.drawable.add );
+        fruitList.add ( pineapple );
+        Fruit strawberry = new Fruit ( "Strawberry", R.drawable.add );
+        fruitList.add ( strawberry );
+        Fruit cherry = new Fruit ( "Cherry", R.drawable.add );
+        fruitList.add ( cherry );
+        Fruit mango = new Fruit ( "Mango", R.drawable.add );
+        fruitList.add ( mango );
 
     }
 }
